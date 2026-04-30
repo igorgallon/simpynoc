@@ -1,0 +1,23 @@
+{
+  "mesh_size": [
+    6,
+    6
+  ],
+  "simulation_steps": 500,
+  "buffers_depth": 4,
+  "max_flits_per_node": 1000,
+  "traffic_steps": 20,
+  "traffic_start": 0.0,
+  "traffic_end": 0.05,
+  "application_file": "D:\\Projects\\MCTOR\\embedded_app_graphs\\mpeg4.app",
+  "mapping_file": "D:\\Projects\\MCTOR\\simpynoc\\maps\\mpeg4_mapping.map",
+  "routing_algorithms": [
+    "XY",
+    "NEGATIVE_FIRST",
+    "WEST_FIRST",
+    "NORTH_LAST"
+  ],
+  "arbiter_strategy": "ROUND_ROBIN",
+  "topology": "MESH",
+  "injection_strategy": "LINEAR"
+}
